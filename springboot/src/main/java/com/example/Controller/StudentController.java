@@ -22,10 +22,11 @@ public class StudentController {
 	@Autowired
 	StudentRepo repo;
      
-	@GetMapping("/students")
+	@GetMapping("/students//")
 	public List<StudentPojo> getAllStudents(){
 		List<StudentPojo> students=repo.findAll();
 		return students;
+		
 	}
 	 @GetMapping("/students/{id}")
 	 public StudentPojo getStudentPojo(@PathVariable int id) {
