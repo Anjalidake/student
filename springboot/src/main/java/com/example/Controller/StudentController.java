@@ -18,7 +18,7 @@ import com.example.Repository.StudentRepo;
 import com.example.pojo.StudentPojo;
 
 // Hello - this is feature branch commit code
-// Featur Branch
+// Featur Branch.
 
 
 @RestController
